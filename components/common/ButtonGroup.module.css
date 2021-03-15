@@ -3,6 +3,7 @@
   border-radius: 4px;
   overflow: hidden;
   border: 1px solid var(--gray500);
+  transition: border-color .2s ease;
 }
 
 .group .button {
@@ -11,6 +12,7 @@
   background: var(--gray50);
   border-left: 1px solid var(--gray500);
   padding: 4px 8px;
+  transition: color .2s ease, background .2s ease, border-color .2s ease;
 }
 
 .group .button:first-child {
@@ -19,6 +21,7 @@
 
 .group .button:hover {
   background: var(--gray100);
+  transition: background .2s ease;
 }
 
 .group .button + .button {
@@ -28,4 +31,5 @@
 .group .button.selected {
   color: var(--gray900);
   font-weight: 600;
+  transition: color .2s ease;
 }
