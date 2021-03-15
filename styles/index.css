@@ -15,6 +15,7 @@ body {
   color: var(--gray900);
   background: var(--gray75);
   overflow-y: overlay;
+  transition: color .2s ease, background .2s ease;
 }
 
 .zh-CN {
@@ -77,6 +78,7 @@ textarea {
   outline: none;
   resize: none;
   flex: 1;
+  transition: color .2s ease, background .2s ease, border-color .2s ease;
 }
 
 input[type='checkbox'] + label {
