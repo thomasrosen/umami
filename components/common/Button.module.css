@@ -11,14 +11,17 @@
   outline: none;
   cursor: pointer;
   position: relative;
+  transition: color .2s ease, background .2s ease;
 }
 
 .button:hover {
   background: var(--gray200);
+  transition: background .2s ease;
 }
 
 .button:active {
   color: var(--gray900);
+  transition: color .2s ease;
 }
 
 .label {
@@ -44,16 +47,19 @@
 .action:active {
   color: var(--gray50);
   background: var(--gray900);
+  transition: color .2s ease, background .2s ease;
 }
 
 .action:hover {
   background: var(--gray800);
+  transition: background .2s ease;
 }
 
 .danger,
 .danger:active {
   color: var(--gray50);
   background: var(--red500);
+  transition: color .2s ease;
 }
 
 .danger:hover {
@@ -64,6 +70,7 @@
 .light:active {
   color: var(--gray900);
   background: transparent;
+  transition: color .2s ease;
 }
 
 .light:hover {
@@ -87,16 +94,20 @@
   cursor: default;
   color: var(--gray500);
   background: var(--gray75);
+  transition: color .2s ease, background .2s ease;
 }
 
 .button:disabled:active {
   color: var(--gray500);
+  transition: color .2s ease;
 }
 
 .button:disabled:hover {
   background: var(--gray75);
+  transition: background .2s ease;
 }
 
 .button.light:disabled {
   background: var(--gray50);
+  transition: background .2s ease;
 }
