@@ -4,6 +4,7 @@
 
 .view {
   border-top: 1px solid var(--gray300);
+  transition: border-color .2s ease;
 }
 
 .menu {
