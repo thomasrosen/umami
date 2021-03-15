@@ -20,20 +20,24 @@
   width: 40px;
   border-radius: 5px;
   border: 1px solid transparent;
+  transition: color .2s ease;
 }
 
 .calendar td:hover {
   border: 1px solid var(--gray300);
   background: var(--gray75);
+  transition: border-color .2s ease, background .2s ease;
 }
 
 .calendar td.faded {
   color: var(--gray500);
+  transition: color .2s ease;
 }
 
 .calendar td.selected {
   font-weight: 600;
   border: 1px solid var(--gray600);
+  transition: border-color .2s ease;
 }
 
 .calendar td.selected:hover {
@@ -43,16 +47,19 @@
 .calendar td.disabled {
   color: var(--gray400);
   background: var(--gray75);
+  transition: color .2s ease, background .2s ease;
 }
 
 .calendar td.disabled:hover {
   cursor: default;
   background: var(--gray75);
   border-color: transparent;
+  transition: background .2s ease;
 }
 
 .calendar td.faded.disabled {
   background: var(--gray100);
+  transition: background .2s ease;
 }
 
 .header {
