@@ -5,6 +5,7 @@
 
 .header {
   border-bottom: 1px solid var(--gray300);
+  transition: border-color .2s ease;
 }
 
 .head {
@@ -22,6 +23,7 @@
 .row {
   border-bottom: 1px solid var(--gray300);
   padding: 10px 0;
+  transition: border-color .2s ease;
 }
 
 .cell {
