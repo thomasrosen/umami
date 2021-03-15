@@ -1,8 +1,10 @@
 body .inactive {
   color: var(--gray500);
+  transition: color .2s ease;
 }
 
 body .active {
   color: var(--gray900);
   font-weight: 600;
+  transition: color .2s ease;
 }
