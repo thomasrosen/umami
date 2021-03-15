@@ -11,11 +11,13 @@
 .row {
   border-top: 1px solid var(--gray300);
   min-height: 430px;
+  transition: border-color .2s ease;
 }
 
 .row > .col {
   border-left: 1px solid var(--gray300);
   padding: 20px;
+  transition: border-color .2s ease;
 }
 
 .row > .col:first-child {
@@ -36,5 +38,6 @@
     border-top: 1px solid var(--gray300);
     border-left: 0;
     padding: 20px 0;
+    transition: border-color .2s ease;
   }
 }
