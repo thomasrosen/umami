@@ -4,6 +4,7 @@
   border-radius: 4px;
   overflow: hidden;
   z-index: 100;
+  transition: background .2s ease, border-color .2s ease;
 }
 
 .option {
@@ -13,10 +14,12 @@
   padding: 4px 16px;
   cursor: pointer;
   white-space: nowrap;
+  transition: background .2s ease;
 }
 
 .option:hover {
   background: var(--gray100);
+  transition: background .2s ease;
 }
 
 .float {
@@ -44,6 +47,7 @@
 
 .divider {
   border-top: 1px solid var(--gray300);
+  transition: border-color .2s ease;
 }
 
 .selected {
