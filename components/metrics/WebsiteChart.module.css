@@ -29,6 +29,7 @@
   background: var(--gray50);
   border-bottom: 1px solid var(--gray300);
   z-index: 3;
+  transition: background .2s ease, border-color .2s ease;
 }
 
 .filter {
