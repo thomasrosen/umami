@@ -20,6 +20,7 @@
   align-items: center;
   height: 40px;
   border-bottom: 1px solid var(--gray300);
+  transition: border-color .2s ease;
 }
 
 .body {
@@ -52,6 +53,7 @@
 .row .link {
   color: var(--gray900);
   text-decoration: none;
+  transition: color .2s ease;
 }
 
 .row .link:hover {
