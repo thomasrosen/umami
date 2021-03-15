@@ -28,6 +28,7 @@
   background: var(--gray400);
   animation: blink 1.4s infinite;
   animation-fill-mode: both;
+  transition: background .2s ease;
 }
 
 .loading div + div {
